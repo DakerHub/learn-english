@@ -8,5 +8,6 @@ module.exports = {
   },
 
   transpileDependencies: ["vuetify"],
-  outputDir: "docs"
+  outputDir: "docs",
+  publicPath: "/learn-english/"
 }
