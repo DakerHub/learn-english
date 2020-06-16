@@ -9,5 +9,5 @@ module.exports = {
 
   transpileDependencies: ["vuetify"],
   outputDir: "docs",
-  publicPath: "/learn-english/"
+  publicPath: "."
 }
