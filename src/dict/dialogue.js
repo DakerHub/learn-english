@@ -1,4 +1,4 @@
-let uid
+let uid = 0
 const L = "LEFT"
 const R = "RIGHT"
 

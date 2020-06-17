@@ -1,8 +1,10 @@
 <template>
-  <v-card color="#385F73" dark>
-    <v-card-title class="headline" v-text="value.title"></v-card-title>
+  <v-card class="dialogue-card" color="#385F73" dark>
+    <v-card-title class="subtitle-1" v-text="value.title"></v-card-title>
     <v-card-text>
-      <div v-for="(tip, i) in value.tips" :key="i">{{ tip }}</div>
+      <ul>
+        <li v-for="(tip, i) in value.tips" :key="i">{{ tip }}</li>
+      </ul>
     </v-card-text>
 
     <v-card-actions>
