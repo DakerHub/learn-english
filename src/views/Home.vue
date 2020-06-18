@@ -37,7 +37,7 @@ export default {
   },
   methods: {
     handleFilterChange(index) {
-      if (!index) {
+      if (index === undefined) {
         this.phrases = phrases
         return
       }
