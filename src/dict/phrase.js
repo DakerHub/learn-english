@@ -56,6 +56,16 @@ const phrase = [
     zh: "短期来看，我的目标是在一个大型的，跨国公司工作。",
     en: "Short term, I am aiming to work at a large, multinational company.",
     tag: [tags.工作]
+  },
+  {
+    zh: "你想喝点什么吗？",
+    en: "Would you like something to drink?",
+    tag: [tags.日常]
+  },
+  {
+    zh: "真的吗？我为你感到非常高兴！",
+    en: "Really? I'm so happy for you!",
+    tag: [tags.日常]
   }
   // ,{
   //   zh: "",
