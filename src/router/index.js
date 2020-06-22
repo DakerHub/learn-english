@@ -17,10 +17,19 @@ export const routes = [
   {
     path: "/dialogue",
     name: "Dialogue",
-    component: () => import(/* webpackChunkName: "about" */ "../views/Dialogue.vue"),
+    component: () => import(/* webpackChunkName: "dialog" */ "../views/Dialogue.vue"),
     meta: {
       name: "场景对话",
       icon: "mdi-forum"
+    }
+  },
+  {
+    path: "/grammar",
+    name: "Grammar",
+    component: () => import(/* webpackChunkName: "grammar" */ "../views/Grammar.vue"),
+    meta: {
+      name: "常用语法",
+      icon: "mdi-book"
     }
   }
 ]

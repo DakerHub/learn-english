@@ -66,6 +66,26 @@ const phrase = [
     zh: "真的吗？我为你感到非常高兴！",
     en: "Really? I'm so happy for you!",
     tag: [tags.日常]
+  },
+  {
+    zh: "他辞去了银行的职位并且毁掉了他自己有希望的前程。",
+    en: "He handed in his notice at the bank and ruined his promising career.",
+    tag: [tags.工作]
+  },
+  {
+    zh: "是的，我就是这个意思。",
+    en: "Yes, that's exactly what I mean.",
+    tag: [tags.回答, tags.确认]
+  },
+  {
+    zh: "是的，理解正确。",
+    en: "Yes, that's correct.",
+    tag: [tags.回答, tags.确认]
+  },
+  {
+    zh: "那么，你的意思是我们如今遇到大问题了。",
+    en: "So, what you're saying is, we've got a big problem on our hands.",
+    tag: [tags.确认]
   }
   // ,{
   //   zh: "",
