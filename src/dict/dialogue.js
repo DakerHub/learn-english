@@ -36,6 +36,23 @@ const dialogues = [
       // { t: L, zh: "", en: "" },
       // { t: R, zh: "", en: "" },
     ]
+  },
+  {
+    title: "表达忧虑和担心",
+    tips: [],
+    qa: [
+      { t: L, zh: "", en: "You look worried." },
+      { t: R, zh: "", en: "I am. I'm very worried." },
+      { t: L, zh: "", en: "What are you worried about?" },
+      { t: R, zh: "", en: "I'm concerned that we don't offer a mobile banking application." },
+      { t: L, zh: "", en: "I can see why you're concerned. All the other banks in the area have one." },
+      { t: R, zh: "", en: "I know. I'm worried that we're falling behind them. It's driving me crazy." },
+      { t: L, zh: "", en: "Yeah. So many problems. I'm also worried that the online banking product isn't doing very well." },
+      { t: R, zh: "", en: "What do you mean?" },
+      { t: L, zh: "", en: "Well, I have some serious concerns about design. Our online banking product looks like it was made in 1990." }
+      // { t: L, zh: "", en: "" },
+      // { t: R, zh: "", en: "" },
+    ]
   }
 ]
 

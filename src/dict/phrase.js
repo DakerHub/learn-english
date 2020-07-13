@@ -173,14 +173,39 @@ const phrase = [
     tag: [tags.商品]
   },
   {
-    zh: "",
-    en: "",
-    tag: [tags.商品]
+    zh: "智能手机的发展让人吃惊。",
+    en: "The smartphone was an amazing development.",
+    tag: [tags.普通]
   },
   {
-    zh: "",
-    en: "",
-    tag: [tags.商品]
+    zh: "发短信彻底颠覆了我们的通讯方式。",
+    en: "Texting revolutionized the way we communicate.",
+    tag: [tags.普通]
+  },
+  {
+    zh: "竞争对手正在赶上我们。",
+    en: "The competition is catching up to us.",
+    tag: [tags.普通]
+  },
+  {
+    zh: "他的最新发明是一款形似戒指的微型手机。",
+    en: "His latest invention is a tiny phone worn like a ring.",
+    tag: [tags.普通]
+  },
+  {
+    zh: "你能不能描述新的触摸屏如何工作？",
+    en: "Can you describe how the new touch screen works?",
+    tag: [tags.回答]
+  },
+  {
+    zh: "我们准备好了吗？",
+    en: "Are we ready for it?",
+    tag: [tags.回答]
+  },
+  {
+    zh: "我们一直努力增加销售。",
+    en: "We'd been strugging to increase sales.",
+    tag: [tags.工作]
   }
   // ,{
   //   zh: "",
