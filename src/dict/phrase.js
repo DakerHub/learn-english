@@ -206,6 +206,211 @@ const phrase = [
     zh: "我们一直努力增加销售。",
     en: "We'd been strugging to increase sales.",
     tag: [tags.工作]
+  },
+  {
+    zh: "他们是很有意思的人。",
+    en: "They're fun to be with.",
+    tag: [tags.描述]
+  },
+  {
+    zh: "他有时是有挑衅性的。",
+    en: "He can be aggressive sometimes.",
+    tag: [tags.描述]
+  },
+  {
+    zh: "我觉得她难以理解。",
+    en: "I think she is hard to read.",
+    tag: [tags.描述]
+  },
+  {
+    zh: "我的老板容易沟通。",
+    en: "My boss is easy to talk to.",
+    tag: [tags.描述]
+  },
+  {
+    zh: "他和其他团队相处得不太好。",
+    en: "He does't get along with other teams too well.",
+    tag: [tags.关系]
+  },
+  {
+    zh: "当他如此咄咄逼人时，他把人都吓跑了。",
+    en: "He puts people off when he's so aggaressive.",
+    tag: [tags.描述, tags.关系]
+  },
+  {
+    zh: "他们看上去彼此相处得很好。",
+    en: "They seem to be getting on well with each other.",
+    tag: [tags.关系]
+  },
+  {
+    zh: "他们很快就喜欢上了彼此。",
+    en: "They've warmed to one another pertty quickly.",
+    tag: [tags.关系]
+  },
+  {
+    zh: "当有特殊场合时，我们出去吃晚饭。",
+    en: "We go out for dinner when there's a special occasion.",
+    tag: [tags.关系, tags.条件]
+  },
+  {
+    zh: "我爱去公园，但只有当阳光明媚时。",
+    en: "I love to go to the park, but only when it's sunny.",
+    tag: [tags.条件]
+  },
+  {
+    zh: "他一般不太喜欢那种事情。",
+    en: "He doesn't generally like that kind of thing.",
+    tag: [tags.描述]
+  },
+  {
+    zh: "她只在不下雨的时候才骑自行车去上班。",
+    en: "She only bikes to work when it's not raining.",
+    tag: [tags.条件]
+  },
+  {
+    zh: "他们是看电视的，但是只有在有好节目时才看。",
+    en: "They do watch TV, but only when there is something good.",
+    tag: [tags.条件]
+  },
+  {
+    zh: "对不起打扰您了。您现在有空吗？",
+    en: "Sorry to disturb you. Are you available now?",
+    tag: [tags.日常]
+  },
+  {
+    zh: "我们会调查所有的可能。",
+    en: "We'll investigate all the alternatives.",
+    tag: [tags.正式表达]
+  },
+  {
+    zh: "馅饼",
+    en: "tart",
+    tag: [tags.食物]
+  },
+  {
+    zh: "芝士蛋糕",
+    en: "cheesecake",
+    tag: [tags.食物]
+  },
+  {
+    zh: "面包布丁",
+    en: "bread pudding",
+    tag: [tags.食物]
+  },
+  {
+    zh: "焦糖布丁",
+    en: "creme brulee",
+    tag: [tags.食物]
+  },
+  {
+    zh: "圣代冰淇淋",
+    en: "sundae",
+    tag: [tags.食物]
+  },
+  {
+    zh: "巧克力蛋糕",
+    en: "brownie",
+    tag: [tags.食物]
+  },
+  {
+    zh: "卡布奇洛咖啡",
+    en: "cappuccino",
+    tag: [tags.食物]
+  },
+  {
+    zh: "浓缩咖啡",
+    en: "espresso",
+    tag: [tags.食物]
+  },
+  {
+    zh: "我有信心拿出一点办法。",
+    en: "I'm confident that we can work something out.",
+    tag: []
+  },
+  {
+    zh: "首先，我们在未来 6 个月里需要 75 台机器。",
+    en: "Let me begin by saying we need 75 machines over the next six months.",
+    tag: [tags.开场]
+  },
+  {
+    zh: "首先你必须明白，我们的预算非常吃紧。",
+    en: "To begin with, you have to understand we have tough budget limitations.",
+    tag: [tags.开场]
+  },
+  {
+    zh: "我们期待你有更好的报价。",
+    en: "We were expecting a better offer from you.",
+    tag: []
+  },
+  {
+    zh: "一直存在误会。",
+    en: "There's been a misunderstanding.",
+    tag: [tags.确认]
+  },
+  {
+    zh: "我拿不准我是否明白了。",
+    en: "I'm not sure that I understand.",
+    tag: [tags.确认]
+  },
+  {
+    zh: "你能不能澄清几点？",
+    en: "Would you clarify a couple of points?",
+    tag: [tags.确认]
+  },
+  {
+    zh: "你所谓的折扣到底是什么意思？",
+    en: "What exactly do you mean by discount?",
+    tag: [tags.确认]
+  },
+  {
+    zh: "你能说得更具体一点吗？",
+    en: "Could you be more specific?",
+    tag: [tags.确认]
+  },
+  {
+    zh: "那你的意思是，你完全没办法立刻交货？",
+    en: "So what you're saying is, there's no way you can deliver immediately?",
+    tag: [tags.确认]
+  },
+  {
+    zh: "换句话说，你买得越多，付的钱就越少。",
+    en: "So, to put it another way, the more you buy, the less you pay.",
+    tag: [tags.确认]
+  },
+  {
+    zh: "更具体地说，我们可以给价格打 10% 的折扣。",
+    en: "To be more specific, we can discount the price by 10 percent.",
+    tag: [tags.确认]
+  },
+  {
+    zh: "我需要跟公司商量，然后才能做决定。",
+    en: "I'll need to check with my company before deciding.",
+    tag: [tags.确认]
+  },
+  {
+    zh: "我提议你购买另一种型号。",
+    en: "I propose that you buy a different model.",
+    tag: [tags.建议]
+  },
+  {
+    zh: "	你建议我们怎么办？",
+    en: "What do you propose that we do?",
+    tag: [tags.询问]
+  },
+  {
+    zh: "我们完全无法接受你的报价。",
+    en: "There's just no way we can accept your offer.",
+    tag: [tags.拒绝]
+  },
+  {
+    zh: "抱歉，但是我们无法提供那样的折扣。",
+    en: "I'm sorry, but we can't offer that kind of discount.",
+    tag: [tags.拒绝]
+  },
+  {
+    zh: "这个价格恐怕毫无可能。",
+    en: "I'm afraid that price is out of the question.",
+    tag: [tags.拒绝]
   }
   // ,{
   //   zh: "",

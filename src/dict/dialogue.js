@@ -4,14 +4,6 @@ const R = "RIGHT"
 
 const dialogues = [
   {
-    title: "初次见面",
-    tips: ["注意这个那个"],
-    qa: [
-      { t: L, zh: "你好, 我是Frank, 很高兴见到你", en: "Hi, I'm Frank, nice to meet you." },
-      { t: R, zh: "很高兴见到你, 我是XXX", en: "Nice to meet you too, I'm XXX" }
-    ]
-  },
-  {
     title: "预定酒店",
     tips: [],
     qa: [
@@ -41,19 +33,31 @@ const dialogues = [
     title: "表达忧虑和担心",
     tips: [],
     qa: [
-      { t: L, zh: "", en: "You look worried." },
-      { t: R, zh: "", en: "I am. I'm very worried." },
-      { t: L, zh: "", en: "What are you worried about?" },
-      { t: R, zh: "", en: "I'm concerned that we don't offer a mobile banking application." },
-      { t: L, zh: "", en: "I can see why you're concerned. All the other banks in the area have one." },
-      { t: R, zh: "", en: "I know. I'm worried that we're falling behind them. It's driving me crazy." },
-      { t: L, zh: "", en: "Yeah. So many problems. I'm also worried that the online banking product isn't doing very well." },
-      { t: R, zh: "", en: "What do you mean?" },
-      { t: L, zh: "", en: "Well, I have some serious concerns about design. Our online banking product looks like it was made in 1990." }
+      { t: L, zh: "你看起来很忧虑。", en: "You look worried." },
+      { t: R, zh: "我确实，我非常忧虑。", en: "I am. I'm very worried." },
+      { t: L, zh: "你在担心什么？", en: "What are you worried about?" },
+      { t: R, zh: "我在担心我们不能提供一个手机银行软件。", en: "I'm concerned that we don't offer a mobile banking application." },
+      { t: L, zh: "我能理解你的担忧。这个区域的所有其他银行都有一个。", en: "I can see why you're concerned. All the other banks in the area have one." },
+      { t: R, zh: "我知道。我担心我们会落后于他们。这快让我发疯了。", en: "I know. I'm worried that we're falling behind them. It's driving me crazy." },
+      { t: L, zh: "是的。有这么多问题。我也在担心线上的银行产品不够好。", en: "Yeah. So many problems. I'm also worried that the online banking product isn't doing very well." },
+      { t: R, zh: "你指的什么？", en: "What do you mean?" },
+      {
+        t: L,
+        zh: "好吧，我有些担心设计。我们的线上银行软件看起来像是生产于1990年代。",
+        en: "Well, I have some serious concerns about design. Our online banking product looks like it was made in 1990."
+      }
       // { t: L, zh: "", en: "" },
       // { t: R, zh: "", en: "" },
     ]
   }
+  // ,{
+  //   title: "",
+  //   tips: [],
+  //   qa: [
+  //     { t: L, zh: "" },
+  //     { t: R, zh: "" }
+  //   ]
+  // }
 ]
 
 dialogues.forEach(el => {
