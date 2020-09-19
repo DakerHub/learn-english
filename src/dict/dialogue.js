@@ -36,16 +36,49 @@ const dialogues = [
       { t: L, zh: "你看起来很忧虑。", en: "You look worried." },
       { t: R, zh: "我确实，我非常忧虑。", en: "I am. I'm very worried." },
       { t: L, zh: "你在担心什么？", en: "What are you worried about?" },
-      { t: R, zh: "我在担心我们不能提供一个手机银行软件。", en: "I'm concerned that we don't offer a mobile banking application." },
+      { t: R, zh: "我在担心我们没有提供一个手机银行软件。", en: "I'm concerned that we don't offer a mobile banking application." },
       { t: L, zh: "我能理解你的担忧。这个区域的所有其他银行都有一个。", en: "I can see why you're concerned. All the other banks in the area have one." },
-      { t: R, zh: "我知道。我担心我们会落后于他们。这快让我发疯了。", en: "I know. I'm worried that we're falling behind them. It's driving me crazy." },
-      { t: L, zh: "是的。有这么多问题。我也在担心线上的银行产品不够好。", en: "Yeah. So many problems. I'm also worried that the online banking product isn't doing very well." },
+      { t: R, zh: "我知道。我担心我们正在落后于他们。这快让我发疯了。", en: "I know. I'm worried that we're falling behind them. It's driving me crazy." },
+      { t: L, zh: "是的。有这么多问题。我也在担心线上的银行产品没有发挥得很好。", en: "Yeah. So many problems. I'm also worried that the online banking product isn't doing very well." },
       { t: R, zh: "你指的什么？", en: "What do you mean?" },
       {
         t: L,
-        zh: "好吧，我有些担心设计。我们的线上银行软件看起来像是生产于1990年代。",
+        zh: "好吧，我对于设计有些严重的担心。我们的线上银行软件看起来像是它生产于1990年代。",
         en: "Well, I have some serious concerns about design. Our online banking product looks like it was made in 1990."
       }
+      // { t: L, zh: "", en: "" },
+      // { t: R, zh: "", en: "" },
+    ]
+  },
+  {
+    title: "讨论环境",
+    tips: [],
+    qa: [
+      { t: L, zh: "我还没意识到这座城市上个月从煤变到了天然气。", en: "I didn't realize that the city changed to natural gas from coal last month." },
+      {
+        t: R,
+        zh: "是的。并且我完全支持。更少的污染，更好的空气质量。水质最近也一直在改善。",
+        en: "Yes. And I'm all for it. Less polution, better air quality. Water quality has been imporving recently, too."
+      },
+      {
+        t: L,
+        zh: "说到环境。Al和我正在考虑买一辆电动车。我们昨晚在网上看了一些。",
+        en: "Speaking of enviroument. Al and I are thinking about buying an electric car. We were looking at some online last night."
+      },
+      { t: R, zh: "真的？那是个不错的想法。对于通勤来说很完美。并且它们正在很快得变便宜。", en: "Really? That's a great idea. Perfect for commuting. And they are getting cheaper fast." },
+      { t: L, zh: "很明显，新的一次充电可以最多行驶170公里。", en: "Apparently, the new ones go up to 170 kilometers between charges." },
+      {
+        t: R,
+        zh: "这我不知道。Angela和我最近看了我们的月花费。你能相信我们每个月会花$200在汽油上吗？",
+        en: "I didn't know that. Angela and I looked at our monthly expenses recently. Can you believe we are spending almost $200 a month on gasoline."
+      },
+      {
+        t: L,
+        zh: "我相信。汽油一直在变得更贵。这就是我们为什么考虑电动车。它们跑起来只需要很少美分每公里。",
+        en: "I believe it. Gas just keeps getting more expensive. That's why we are thinking about an electric car. They just cost a few cents a kilometer to run."
+      },
+      { t: R, zh: "如果你买了一辆，我很想试一试。", en: "If you get one. I'd love to try it out." },
+      { t: L, zh: "当然可以。", en: "Sure." }
       // { t: L, zh: "", en: "" },
       // { t: R, zh: "", en: "" },
     ]
@@ -54,8 +87,8 @@ const dialogues = [
   //   title: "",
   //   tips: [],
   //   qa: [
-  //     { t: L, zh: "" },
-  //     { t: R, zh: "" }
+  //     { t: L, zh: "", en: "" },
+  //     { t: R, zh: "", en: "" },
   //   ]
   // }
 ]

@@ -411,6 +411,36 @@ const phrase = [
     zh: "这个价格恐怕毫无可能。",
     en: "I'm afraid that price is out of the question.",
     tag: [tags.拒绝]
+  },
+  {
+    zh: "我整天都很忙碌。",
+    en: "I'm on the go all day.",
+    tag: [tags.工作]
+  },
+  {
+    zh: "我不经常和朋友见面。",
+    en: "I don't meet up with friends so often.",
+    tag: [tags.日常]
+  },
+  {
+    zh: "大多数晚上我呆在家里。",
+    en: "I stay in most nights.",
+    tag: [tags.日常]
+  },
+  {
+    zh: "我晚上试着放松。",
+    en: "I try to chill out in the evenings.",
+    tag: [tags.日常]
+  },
+  {
+    zh: "现在，我很难有时间晚上做饭。我通常就是买外卖。",
+    en: "Right now, I'm struggling to find time to cook in the evening. I usually just grab takeout.",
+    tag: [tags.日常]
+  },
+  {
+    zh: "我好久没有去健身房了。",
+    en: "I haven't gotten to the gym in ages.",
+    tag: [tags.日常]
   }
   // ,{
   //   zh: "",
